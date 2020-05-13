@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_bottom"
+    app:startDestination="@+id/headerFragment">
+
+    <fragment
+        android:id="@+id/headerFragment"
+        android:name="com.chiquita.mcspsa.ui.evaluation.HeaderFragment"
+        android:label="fragment_header"
+        tools:layout="@layout/fragment_header" />
+</navigation>

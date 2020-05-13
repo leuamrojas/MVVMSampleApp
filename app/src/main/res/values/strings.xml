@@ -1,0 +1,166 @@
+<resources>
+    <string name="app_name">Chiquita MCS (Change me)</string>
+    <string name="no_result_found_enc">No results found!</string>
+    <string name="you_found_an_error">You found an error!</string>
+    <string name="you_are_working_in_offline_mode">You are working in offline mode</string>
+    <string name="login">LOGIN</string>
+    <string name="email_username">Username</string>
+    <string name="error_invalid_username">Invalid Username</string>
+    <string name="error_invalid_password">Invalid Password</string>
+    <string name="no_implemented_yet">Not implemented yet</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="login_again">Your session has expired. Please do login!</string>
+    <string name="choose_app_server">Please choose the application server</string>
+    <string name="p_r_a">Problem registering Access!. Please contact System Support!</string>
+    <string name="a_r">Access Restricted!. Please contact System Support!</string>
+    <string name="cancel">CANCEL</string>
+    <string name="logoff">Disconnect</string>
+    <string name="device">Device</string>
+    <string name="settings">Settings</string>
+    <string name="profile">My profile</string>
+    <string name="press_again_exit_app">Press two times to close</string>
+    <string name="invalid_request">Invalid request!. Please contact System Support!</string>
+    <string name="access_denied">Access denied!</string>
+    <string name="contact_system_admin">You don\\\'t have mobile access. Please contact you System Administrator</string>
+
+
+    <string name="user_id">Usuario Chiquita</string>
+    <string name="password">Contraseña</string>
+    <string name="enter">Ingresar</string>
+
+    <string name="location">Localización</string>
+    <string name="back">Regresar</string>
+    <string name="submit">Aceptar</string>
+    <string name="empacadoras">Empacadora</string>
+
+    <string name="photo">Fotografias</string>
+    <string name="inspection">Inspeccion</string>
+
+    <string name="comentario">Comentarios</string>
+    <string name="user">Usuario</string>
+    <string name="observation1">Observacion1</string>
+
+    <string name="samples">Muestras de Inspeccion</string>
+    <string name="open">Abierta</string>
+    <string name="close">Cerrada</string>
+    <string name="eval">Evaluador</string>
+    <string name="label">Etiqueta</string>
+    <string name="gajos">Gajos</string>
+    <string name="tray">Dedos</string>
+    <string name="start">Inicio</string>
+    <string name="end">Fin</string>
+    <string name="quality">%Calidad</string>
+    <string name="go">Detalle</string>
+    <string name="delete">Borrar</string>
+    <string name="sections">Secciones</string>
+
+    <string name="date">Fecha</string>
+    <string name="trip">Viaie</string>
+    <string name="baler">Empacadora</string>
+    <string name="export">Tipo de Exportacion</string>
+    <string name="shipping">Empaque</string><!--Embarque-->
+    <string name="sku">SKU</string>
+    <string name="container">Contenedor</string>
+    <string name="batch">Lote</string>
+
+    <string name="header">Encabezado</string>
+    <string name="samplees">Muestras</string>
+    <string name="photos">Fotos</string>
+
+    <string name="summary">Resumen</string>
+    <string name="kpis">KPI</string>
+
+    <string name="criter">CRITERIO</string>
+    <string name="gajo">NOTA</string>
+    <string name="finish">FINALIZAR</string>
+    <string name="sampletime">MUESTRA\:</string>
+    <string name="starttime">HORA INICIO\:</string>
+    <string name="defectstitle">Defectos De Fruta En Seleccion</string>
+
+    <string name="dashboard">Evaluaciones</string>
+    <string name="sync_now">Sincronizar</string>
+    <string name="completed">Completadas</string>
+    <string name="incompleted">Incompletas</string>
+    <string name="status">Estado</string>
+    <string name="incompleted_class">Clasificacion Incompleta</string>
+
+    <string name="evaluation_psa">Evaluacion PSA</string>
+
+    <string name="farm">Finca</string>
+    <string name="port">Puerto</string>
+
+    <string name="select">Seleccion</string>
+    <string name="summary_defects">Defectos de fruta en Selección</string>
+    <string name="criteria">Criterio</string>
+    <string name="totalvalue">Total</string>
+    <string name="category">Categoria</string>
+
+    <string name="typeofdefects"> Tipo de defecto</string>
+    <string name="previous">Anterior</string>
+    <string name="next">Próximo</string>
+
+    <string name="fingers">Dedos</string>
+    <string name="packers">Envasador</string>
+
+    <string name="dennis">Dennis Quesada "\n" {cb 136523} </string>
+    <string name="gen_kpis">View KPI\'s</string>
+
+    <string name="newEval">Nueva evaluación</string>
+
+    <string-array name="inspection">
+        <item>Seleccion</item>
+        <item>Clasificacion</item>
+        <item>Producto Terminado</item>
+
+    </string-array>
+
+    <string-array name="evaluator">
+        <item>Johanna Salazar</item>
+        <item>Dennis Quesada Arroyo</item>
+        <item>Leonidas Orellana</item>
+
+    </string-array>
+
+    <string-array name="defects">
+        <item>Defecto de fruta</item>
+        <item>Primera impresión</item>
+        <item>Defectos</item>
+
+    </string-array>
+
+    <string-array name="inspectionCategory">
+        <item>@string/inspection_category</item>
+    </string-array>
+
+    <string-array name="evaluatorDefect">
+        <item>@string/evaluator</item>
+    </string-array>
+
+    <string name="version">D.V.0.1.2</string>
+    <string name="all_rights">&#169;2019 Chiquita Brands L.L.C Todos los derechos reservados.</string>
+
+    <string name="psa">PSA</string>
+    <string name="finca">Finca/Puerto</string>
+
+    <string name="finish_btn">Finalizar</string>
+    <string name="generatekpi">Generar KPIs</string>
+    <string name="top3defects">Top 3 Defectos</string>
+    <string name="top5packers"> Top 5 empacadores</string>
+    <string name="classify">Clasificación</string>
+    <string name="finishedproduct">Producto Finalizado</string>
+    <string name="seeall">Ver todo</string>
+    <string name="average">Promedio</string>
+    <string name="comm">Commentarios</string>
+
+    <string name="add_defects">Añadir defectos</string>
+    <string name="inspection_category">Categoría de inspección</string>
+    <string name="evaluator">Evaluador</string>
+    <string name="lavel">Lavel</string>
+
+    <string name="quality_defect">Calidad</string>
+    <string name="startdefect">comienzo</string>
+    <string name="enddefect">Fin</string>
+    <string name="tray_size">Tamaño de bandeja</string>
+    <string name="viaje">Viaje</string>
+
+</resources>

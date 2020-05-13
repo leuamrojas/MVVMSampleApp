@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_offline"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone"
+    android:elevation="5dp"
+    android:layout_gravity="top">
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:id="@+id/lyt_request_sync"
+        style="@style/RippleStyleBlack"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toggle_button"
+        android:background="@color/blue_black_light"
+        android:padding="@dimen/spacing_m">
+
+        <TextView
+            android:id="@+id/text_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:drawableEnd="@drawable/ic_signal_no_internet"
+            android:drawablePadding="@dimen/spacing_m"
+            android:drawableTint="@color/white"
+            android:text="@string/you_are_working_in_offline_mode"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="@dimen/textsize_s"
+            android:textAppearance="@style/field"
+            android:textColor="@color/white" />
+
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+</RelativeLayout>

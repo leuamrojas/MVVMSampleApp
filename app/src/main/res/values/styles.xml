@@ -1,0 +1,115 @@
+<resources>
+
+    <style name="AppTheme" parent="CustomTheme"/>
+
+    <style name="CustomTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="fontFamily">@font/montserrat_regular</item>
+        <item name="android:textSize">@dimen/textsize_xs</item>
+        <item name="material_drawer_header_selection_text">@color/white</item>
+        <item name="material_drawer_header_selection_subtext">@color/white</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="BaseTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/accent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <style name="DrawerStyle" parent="BaseTheme">
+        <item name="colorControlHighlight">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.FullScreenDialog">
+        <item name="android:windowAnimationStyle">@style/Animation.WindowSlideUpDown</item>
+    </style>
+
+    <style name="Animation.WindowSlideUpDown" parent="@android:style/Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/anim_fragment_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_fragment_out</item>
+    </style>
+
+    <style name="EditText.Accent" parent="@style/AppTheme">
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <item name="colorControlNormal">@color/gray_005</item>
+    </style>
+
+    <style name="label" parent="@android:style/Widget.TextView">
+        <item name="android:layout_gravity">left</item>
+        <item name="android:gravity">start</item>
+        <item name="android:padding">@dimen/spacing_xxs</item>
+        <item name="android:textColor">@color/gray_005</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/textsize_xxs</item>
+    </style>
+
+    <style name="field" parent="@android:style/Widget.TextView">
+        <item name="android:layout_gravity">left</item>
+        <item name="android:gravity">start</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/textsize_xs</item>
+    </style>
+
+    <style name="RippleStyleWhite">
+        <item name="mrl_rippleOverlay">true</item>
+        <item name="mrl_rippleColor">#80FFFFFF</item>
+        <item name="mrl_rippleHover">true</item>
+        <item name="mrl_rippleAlpha">0.2</item>
+    </style>
+
+    <style name="RippleStyleBlack" parent="RippleStyleWhite">
+        <item name="mrl_rippleColor">#8096989A</item>
+    </style>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="border_overlay" format="boolean" />
+        <attr name="fill_color" format="color" />
+    </declare-styleable>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="BottomNavigationView" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@color/bg_color</item>
+        <item name="android:textColor">@color/gray</item>
+
+    </style><!-- <dimen name="design_bottom_navigation_text_size" tools:override="true">12sp</dimen>-->
+
+    <style name="BottomNavigationView.Active" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/navy_blue</item>
+        <item name="android:background">@color/yellow</item>
+
+    </style><!-- <dimen name="design_bottom_navigation_active_text_size" tools:override="true">12sp</dimen>-->
+
+    <style name="ThemeSpinner">
+        <!-- Color when pressed -->
+        <item name="colorAccent">@color/navy_blue</item>
+        <!-- Default color for the dropdown arrow and line -->
+        <item name="colorControlNormal">@color/gray</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+
+    </style>
+
+</resources>

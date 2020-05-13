@@ -1,0 +1,41 @@
+<resources>
+    <!-- Defaults -->
+    <bool name="isTablet">false</bool>
+    <bool name="isWideTablet">false</bool>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_detail_horizontal_margin">16dp</dimen>
+
+    <dimen name="spacing_xxs">2dp</dimen>
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_s">6dp</dimen>
+    <dimen name="spacing_m">8dp</dimen>
+    <dimen name="spacing_l">12dp</dimen>
+    <dimen name="spacing_xl">16dp</dimen>
+    <dimen name="spacing_xxl">18dp</dimen>
+    <dimen name="spacing_xxxl">24dp</dimen>
+
+    <dimen name="button_text_size">12dp</dimen>
+    <dimen name="logo_width">56dp</dimen>
+    <dimen name="image_size">100sp</dimen>
+
+    <dimen name="button_height">52dp</dimen>
+    <dimen name="drawer_width">304dp</dimen>
+    <dimen name="image_letter">48dp</dimen>
+    <dimen name="toggle_button">48dp</dimen>
+    <dimen name="login_width">300dp</dimen>
+
+    <dimen name="textsize_xxxs">8sp</dimen>
+    <dimen name="textsize_xxs">12sp</dimen>
+    <dimen name="textsize_xs">15sp</dimen>
+    <dimen name="textsize_s">14sp</dimen>
+    <dimen name="textsize_m">18sp</dimen>
+    <dimen name="textsize_l">20sp</dimen>
+    <dimen name="textsize_xl">22sp</dimen>
+    <dimen name="textsize_xxl">24sp</dimen>
+    <dimen name="textsize_default">18sp</dimen>
+
+
+
+</resources>

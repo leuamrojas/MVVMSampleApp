@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/headerFragment"
+        android:title="@string/header"/>
+
+    <item
+        android:id="@+id/sampleFragment"
+        android:title="@string/samplees"/>
+
+    <item
+        android:id="@+id/photosFragment"
+        android:title="@string/photos"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/commentsFragment"
+        android:title="@string/comentario"/>
+
+    <item
+        android:id="@+id/summaryFragment"
+        android:title="@string/summary"/>
+
+   <!-- <item
+        android:id="@+id/navigation_kpis"
+        android:title="KPI's" />-->
+
+</menu>
